@@ -1,0 +1,4 @@
+See file:///Users/davidchiu/Project/wuserver/app/build/tmp/linkArmeabiDebugArm7WuserverSharedLibrary/output.txt for all output for linkArmeabiDebugArm7WuserverSharedLibrary.
+linking libwuserver.so successful.
+
+Finished linkArmeabiDebugArm7WuserverSharedLibrary, see full log file:///Users/davidchiu/Project/wuserver/app/build/tmp/linkArmeabiDebugArm7WuserverSharedLibrary/output.txt.

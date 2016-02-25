@@ -1,0 +1,15 @@
+-shared
+-Wl,-soname,libwuserver.so
+-o
+/Users/davidchiu/Project/wuserver/app/build/intermediates/binaries/debug/arm7/obj/armeabi/libwuserver.so
+/Users/davidchiu/Project/wuserver/app/build/intermediates/objectFiles/armeabiDebugArm7WuserverSharedLibrary/wuserverMainC/afq0zqr4wy0in5sfajk7vj0a9/wuserver.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/Users/davidchiu/Downloads/android-ndk-r10e/platforms/android-19/arch-arm
+-Wl,--build-id
+-L/Users/davidchiu/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi
+-lgnustl_shared
+-no-canonical-prefixes
+-l/Users/davidchiu/Project/zeromq-android/lib/libzmq.a
