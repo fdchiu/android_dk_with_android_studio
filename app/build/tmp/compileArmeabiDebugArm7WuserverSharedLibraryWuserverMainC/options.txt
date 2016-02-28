@@ -25,4 +25,4 @@ c
 -fno-omit-frame-pointer
 -fno-strict-aliasing
 -Werror
--I/Users/davidchiu/Project/zeromq-android/include
+-I/Users/davidchiu/Project/libzmq-master/builds/android/prefix/arm-linux-androideabi-4.8/include

@@ -12,4 +12,4 @@
 -L/Users/davidchiu/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi
 -lgnustl_shared
 -no-canonical-prefixes
--l/Users/davidchiu/Project/zeromq-android/lib/libzmq.a
+-l/Users/davidchiu/Project/libzmq-master/builds/android/prefix/arm-linux-androideabi-4.8/lib/libzmq.a

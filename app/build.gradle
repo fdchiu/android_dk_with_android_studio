@@ -15,9 +15,10 @@ model {
     android.ndk {
         moduleName = "wuserver"
         CFlags.add("-Werror")
-        CFlags.add("-I/Users/davidchiu/Project/zeromq-android/include")
-        //ldFlags.add("-L/Users/davidchiu/Project/zeromq-android/lib")
-        ldLibs.add("/Users/davidchiu/Project/zeromq-android/lib/libzmq.a")
+        CFlags .add("-I${file("src/main/jni/include")}".toString())
+
+        ldFlags.add("-L${file("src/main/jni/lib")}".toString())
+        ldLibs.add("zmq")
         //stl = 'stlport_static'
         //stl = 'gnustl_static'
         stl = 'gnustl_shared'
@@ -31,14 +32,18 @@ model {
     }
 
     android.productFlavors {
-         create ("arm7") {
+         create ("arm") {
             ndk.abiFilters.add("armeabi")
         }
 
+        create ("arm7") {
+            ndk.abiFilters.add("armeabi-v7a")
+        }
 
         create ("arm8") {
             ndk.abiFilters.add("arm64-v8a")
         }
+
        /* create ("x86-32") {
             ndk.abiFilters.add("x86")
         }
